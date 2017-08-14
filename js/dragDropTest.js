@@ -18,16 +18,16 @@
 				
 			],
 			start: function(){
-				console.log("Inicia el widget!")
+				console.log("Start!")
 			},
 			correct: function(){
-				alert("Correcto!, ha completado el test.")
+				alert("Correct!, test finished.")
 			},
 			error: function(attempts){
-				alert("Hay que revisarlo, hay elementos mal ubicados.")
+				alert("Someting is wrong!, try again.")
 			},
 			fail: function(){
-				alert("Ha fallado en completar el test.")
+				alert("You fialed finishing the test.")
 			}
 		}, options);
 
@@ -238,7 +238,7 @@
 		//al final setea las posiciones de los drags para poderlos retornar
 		setTimeout(function(){
 			selfT.setPositionDrags()
-			console.log("Toma las posiciones!")
+			console.log("Get positions!")
 		}, 100)
 		
 		//------------------------------------------------------------
