@@ -33,6 +33,7 @@ Estas son las opciones disponibles para este plugin, las clases col son del [boo
 ```JavaScript
 header: "Asocie cada elemento con la definición correspondiente.",//Encabezado que explica la actividad a realizar.
 genHeight:"30px",//alto general para todos los elementos.
+classColDragDropHeader: "col-xs-11",//tamaño columna del header del reto.
 classColDroppableConcept: "col-xs-2",//tamaño de columna hacia donde se arrastra el concepto.
 classColDroppableDefinition: "col-xs-6",//tamaño de columna de las definiciones.
 classColDraggable: "col-xs-2",//tamaño de columna de los arrastrables.
