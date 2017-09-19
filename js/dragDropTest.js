@@ -5,6 +5,7 @@
 		var settings = $.extend({
 			header: "Asocie cada elemento con la definición correspondiente.",
 			genHeight:"30px",//alto general para todos los elementos
+			classColDragDropHeader: "col-md-12",
 			classColDroppableConcept: "col-xs-2",
 			classColDroppableDefinition: "col-xs-6",
 			classColDraggable: "col-xs-2",
@@ -79,7 +80,7 @@
 
 		this.getHeaderTest = function() {
 			return '<div class="">'+
-						'<div class="col-md-12 dragDropHeader">'+settings.header+'</div>'+
+						'<div class="'+settings.classColDragDropHeader+' dragDropHeader">'+settings.header+'</div>'+
 					'</div>';
 		}
 

@@ -2,6 +2,7 @@ $(function(){
 
     $("#dragDropTest").dragDropTest({
     	header: "Here goes the test definition. ",
+    	classColDragDropHeader: "col-xs-11",
     	genHeight: '65px',
     	definitions: {
 			1: "goesWith: drag 2 -- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at diam fringilla, commodo lorem a, tincidunt turpis. Vivamus nec lorem id quam efficitur faucibus.",
